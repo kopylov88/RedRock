@@ -57,7 +57,6 @@ body.no-scroll {
     padding: 0 15px;
     justify-content: center;
     align-items: center;
-    overflow: auto;
 }
 .modal__body{
     position: relative;
@@ -399,11 +398,6 @@ body.no-scroll {
     max-width: 326px;
     width: 100%;
     min-height: 456px;
-    transition: .3s;
-}
-.tariffs__card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 15px #4500D9;
 }
 .tariffs__card::before {
     content: '';
@@ -424,15 +418,6 @@ body.no-scroll {
     width: 70px;
     height: 33px;
     background-image: url(../img/icons/android+ios.svg);
-}
-.tariffs__card--ultra::after {
-    content: '';
-    position: absolute;
-    top: -37px;
-    right: -37px;
-    width: 75px;
-    height: 75px;
-    background: url(../img/icons/star.svg) no-repeat center;
 }
 .tariffs__card-title {
     font-weight: 800;
@@ -509,7 +494,6 @@ body.no-scroll {
     color: #fff;
     padding: 27px 85px;
     margin-top: 30px;
-    width: 100%;
     transition: .3s;
 }
 .tariffs__card-link:hover {
