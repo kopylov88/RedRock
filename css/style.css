@@ -57,6 +57,7 @@ body.no-scroll {
     padding: 0 15px;
     justify-content: center;
     align-items: center;
+     overflow: auto;
 }
 .modal__body{
     position: relative;
