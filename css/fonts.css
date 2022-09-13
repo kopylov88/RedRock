@@ -1,0 +1,53 @@
+
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('TTInterfaces-MediumItalic.eot');
+    src: local('TT Interfaces Medium Italic'), local('TTInterfaces-MediumItalic'),
+        url('../fonts/TTInterfaces-MediumItalic.woff') format('woff'),
+        url('../fonts/TTInterfaces-MediumItalic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('TTInterfaces-SemiBold.eot');
+    src: local('TT Interfaces SemiBold'), local('TTInterfaces-SemiBold'),
+        url('../fonts/TTInterfaces-SemiBold.woff') format('woff'),
+        url('../fonts/TTInterfaces-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('TTInterfaces-Medium.eot');
+    src: local('TT Interfaces Medium'), local('TTInterfaces-Medium'),
+        url('../fonts/TTInterfaces-Medium.woff') format('woff'),
+        url('../fonts/TTInterfaces-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('TTInterfaces-ExtraBold.eot');
+    src: local('TT Interfaces ExtraBold'), local('TTInterfaces-ExtraBold'),
+        url('../fonts/TTInterfaces-ExtraBold.woff') format('woff'),
+        url('../fonts/TTInterfaces-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('TTInterfaces-Bold.eot');
+    src: local('TT Interfaces Bold'), local('TTInterfaces-Bold'),
+        url('../fonts/TTInterfaces-Bold.woff') format('woff'),
+        url('../fonts/TTInterfaces-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+

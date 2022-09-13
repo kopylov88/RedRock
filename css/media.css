@@ -1,0 +1,150 @@
+@media (max-width: 1235px) {
+    .benefits-content__cards {
+        justify-content: center;
+    }
+    .benefits-content__item:last-child {
+        text-align: center;
+    }
+    .item-content__text{
+        margin: 0 auto;
+    }
+}
+@media (max-width: 840px) {
+    .benefits-content__item {
+        max-width: 340px;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+@media (max-width: 767px) {
+    .header {
+        padding-top: 15px;
+    }
+    .header__content-info {
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+    .info-content__title {
+        font-size: 34px;
+        line-height: 1.29;
+    }
+    .info-content__text {
+        text-align: center;
+        font-size: 13px;
+        line-height: 1.23;
+    }
+    .info-content__values {
+        justify-content: center;
+        column-gap: 35px;
+    }
+    .info-content__img {
+        flex-basis: auto;
+    }
+    .benefits-content__cards {
+        row-gap: 30px;
+    }
+    .benefits-content__title {
+        font-size: 23px;
+        line-height: 1.3;
+    }
+    .item-content__title {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+    .item-content__text {
+        font-size: 13px;
+        line-height: 1.23;
+    }
+    .input__login, .input__key {
+        width: 82.8%;
+    }
+    .modal__text {
+        font-size: 26px;
+        line-height: 33px;
+    }
+    .platform {
+        padding-top: 15px;
+        padding-bottom: 0;
+    }
+    .platform__android {
+        flex-direction: column-reverse;
+        row-gap: 20px;
+    }
+    .platform__android-img, .platform__ios-img {
+        flex: 0 1 auto;
+    }
+    .platform__android-body,
+    .platform__ios-body {
+        flex: 0 1 auto;
+        padding-top: 0;
+    }
+    .platform__android-title,
+    .platform__android-subtitle, 
+    .platform__ios-title, 
+    .platform__ios-subtitle {
+        text-align: center;
+    }
+    .android__buy,
+    .ios__buy {
+        flex-direction: column;
+    }
+    .android__buy-btn,
+    .ios__buy-btn {
+        max-width: 186px;
+        margin: 0 auto 16px;
+    }
+    .buy-text {
+        max-width: 300px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .platform__ios {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .modal__title {
+        font-size: 26px;
+    }
+    .input__email {
+        width: 82.8%;
+    }
+    .input__login {
+        width: 82.8%;
+    }
+    .input__key {
+        width: 82.8%;
+    }
+    .tariffs {
+        padding-bottom: 15px;
+    }
+    .questions {
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 500px) {
+    .header-top__logo {
+        display: none;
+    }
+    .header-top__btns {
+        margin: 0 auto;
+    }
+}
+@media (max-width: 450px) {
+    .tariffs__btns {
+        flex-wrap: wrap;
+        row-gap: 20px;
+        justify-content: center;
+    }
+    .questions__item {
+        padding: 0 15px;
+    }
+    .questions__item-title::after {
+        right: 15px;
+    }
+    .questions__item-title {
+        max-width: 200px;
+        text-align: center;
+    }
+    
+}
