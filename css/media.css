@@ -143,8 +143,11 @@
         right: 15px;
     }
     .questions__item-title {
-        max-width: 200px;
-        text-align: center;
+        text-align: left;
+    } 
+}
+@media (max-width: 350px) {
+    .questions__item-title {
+        max-width: 250px;
     }
-    
 }
