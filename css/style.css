@@ -509,6 +509,7 @@ body.no-scroll {
     color: #fff;
     padding: 27px 85px;
     margin-top: 30px;
+    width: 100%;
     transition: .3s;
 }
 .tariffs__card-link:hover {
