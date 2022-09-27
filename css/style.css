@@ -419,6 +419,15 @@ body.no-scroll {
     height: 33px;
     background-image: url(../img/icons/android+ios.svg);
 }
+.tariffs__card--ultra::after {
+    content: '';
+    position: absolute;
+    top: -37px;
+    right: -37px;
+    width: 75px;
+    height: 75px;
+    background: url(../img/icons/star.svg) no-repeat center;
+}
 .tariffs__card-title {
     font-weight: 800;
     font-size: 30px;
