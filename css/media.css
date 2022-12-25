@@ -25,6 +25,9 @@
         flex-direction: column-reverse;
         margin-bottom: 50px;
     }
+    .info-content__descr {
+        text-align: center;
+    }
     .info-content__title {
         font-size: 34px;
         line-height: 1.29;
@@ -143,8 +146,12 @@
         right: 15px;
     }
     .questions__item-title {
-        text-align: left;
-    } 
+        text-align-last: left;
+        
+    }
+    .tariffs__card--ultra::after {
+        right: -5px;
+    }
 }
 @media (max-width: 350px) {
     .questions__item-title {
